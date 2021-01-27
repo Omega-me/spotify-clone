@@ -1,0 +1,36 @@
+.sidebarElement {
+  color: white;
+  .element {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    transition: all 0.2s ease;
+    &:hover {
+      h5 {
+        color: white;
+      }
+    }
+    h5 {
+      transition: all 0.2s ease;
+      margin-left: 10px;
+      color: rgb(158, 158, 158);
+      font-size: 0.9rem;
+    }
+  }
+
+  .paylist {
+    color: rgb(158, 158, 158);
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    h5 {
+      font-size: 0.9rem;
+    }
+    &:hover {
+      h5 {
+        color: white;
+      }
+    }
+  }
+}

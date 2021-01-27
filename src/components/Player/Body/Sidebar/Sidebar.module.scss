@@ -1,0 +1,22 @@
+.sidebar {
+  max-width: 230px;
+  min-width: 230px;
+  background-color: #000000;
+  padding: 20px;
+
+  height: 89vh;
+  overflow-y: scroll;
+  img {
+    object-fit: contain;
+  }
+  hr {
+    width: 90%;
+    opacity: 0.1;
+    margin-bottom: 20px;
+  }
+  .sidebar__title {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+}

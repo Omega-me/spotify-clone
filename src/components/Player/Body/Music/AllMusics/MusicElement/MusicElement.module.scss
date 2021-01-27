@@ -1,0 +1,75 @@
+.musicElement {
+  padding: 10px;
+  margin: 0 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: rgba($color: #9c9c9c, $alpha: 0.2);
+  }
+  * {
+    margin: 0 7px;
+    color: grey;
+  }
+  .musicElement__counter {
+    flex: 0;
+    color: white;
+    @media all and (max-width: 768px) {
+      flex: 0;
+    }
+  }
+  img {
+    width: 40px;
+    object-fit: contain;
+    flex: 0;
+    @media all and (max-width: 768px) {
+      flex: 0;
+    }
+  }
+  .musicElement__music {
+    flex: 0.3;
+    .musicElement__title {
+      color: white;
+    }
+    .musicElement__artist {
+      font-size: 0.7rem;
+    }
+    @media all and (max-width: 768px) {
+      flex: 1;
+    }
+  }
+  .musicElement__albumName {
+    flex: 0.3;
+    @media all and (max-width: 768px) {
+      display: none;
+      flex: 0;
+    }
+  }
+  .musicElement__addedBy {
+    flex: 0.2;
+    @media all and (max-width: 768px) {
+      display: none;
+      flex: 0;
+    }
+  }
+  .musicElement__date {
+    flex: 0.2;
+    @media all and (max-width: 768px) {
+      display: none;
+      flex: 0;
+    }
+  }
+  .musicElement__musicHeight {
+    flex: 0;
+    @media all and (max-width: 768px) {
+      display: none;
+      flex: 0;
+    }
+  }
+}

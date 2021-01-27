@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  .button {
+    color: #1db954;
+    margin: 10px;
+    transition: all 0.1s ease;
+  }
+  .playButton {
+    font-size: 4.5rem;
+    position: relative;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .white {
+    position: relative;
+    .layer {
+      position: absolute;
+      z-index: 0;
+      width: 35px;
+      height: 35px;
+      background-color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .favourite {
+    font-size: 2rem;
+  }
+  .more {
+    color: grey;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.hrLine {
+  width: 97%;
+  margin: auto;
+  margin-bottom: 15px;
+  opacity: 0.1;
+}

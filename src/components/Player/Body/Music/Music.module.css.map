@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,IAAI,EAAE,CAAC;EACP,UAAU,EAAE,sCAAsC;EAClD,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "Music.module.scss"
+    ],
+    "names": [],
+    "file": "Music.module.css"
+}

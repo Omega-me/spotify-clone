@@ -1,0 +1,62 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.header .button {
+  color: #1db954;
+  margin: 10px;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.header .playButton {
+  font-size: 4.5rem;
+  position: relative;
+}
+
+.header .playButton:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.header .white {
+  position: relative;
+}
+
+.header .white .layer {
+  position: absolute;
+  z-index: 0;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header .favourite {
+  font-size: 2rem;
+}
+
+.header .more {
+  color: grey;
+}
+
+.header .more:hover {
+  color: white;
+}
+
+.hrLine {
+  width: 97%;
+  margin: auto;
+  margin-bottom: 15px;
+  opacity: 0.1;
+}
+/*# sourceMappingURL=Header.module.css.map */

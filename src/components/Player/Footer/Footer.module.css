@@ -1,0 +1,186 @@
+.footer {
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  padding: 35px 20px;
+  background-color: #282828;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__musicInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0.25;
+      -ms-flex: 0.25;
+          flex: 0.25;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer .footer__musicInfo * {
+  margin-right: 10px;
+  color: #1db954;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.footer .footer__musicInfo img {
+  width: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer .footer__musicInfo p {
+  font-size: 0.7rem;
+}
+
+.footer .footer__musicInfo .footer__title {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.footer .footer__player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 230px;
+  margin: 0 20px;
+}
+
+.footer .footer__player * {
+  cursor: pointer;
+}
+
+.footer .footer__player .playButton {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  color: white;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.footer .footer__player .playButton:hover {
+  color: #1db954;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .footer__player .playButton:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.footer .footer__player .shuffle {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.footer .footer__player .shuffle:hover {
+  color: #1db954;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .footer__player .shuffle:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.footer .footer__player .next {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.footer .footer__player .next:hover {
+  color: #1db954;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .footer__player .next:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.footer .footer__player .prev {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.footer .footer__player .prev:hover {
+  color: #1db954;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .footer__player .prev:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.footer .footer__player .repeat {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.footer .footer__player .repeat:hover {
+  color: #1db954;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .footer__player .repeat:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.footer .footer__volume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0.25;
+      -ms-flex: 0.25;
+          flex: 0.25;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer .footer__volume * {
+  margin-left: 10px;
+  color: #1db954;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Footer.module.css.map */

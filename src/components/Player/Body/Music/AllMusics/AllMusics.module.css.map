@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,+DAA+D;EAC3E,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,MAAM;CAChB",
+    "sources": [
+        "AllMusics.module.scss"
+    ],
+    "names": [],
+    "file": "AllMusics.module.css"
+}

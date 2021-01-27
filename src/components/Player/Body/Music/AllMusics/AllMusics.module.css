@@ -1,0 +1,8 @@
+.allMusics {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(#121212), color-stop(#121212), to(#121212));
+  background: linear-gradient(180deg, transparent, #121212, #121212, #121212);
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+/*# sourceMappingURL=AllMusics.module.css.map */

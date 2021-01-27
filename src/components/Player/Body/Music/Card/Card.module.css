@@ -1,0 +1,94 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 20px;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.card img {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card .card__info {
+  margin-left: 25px;
+}
+
+@media all and (max-width: 992px) {
+  .card .card__info {
+    margin-left: 15px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .card .card__info {
+    margin-left: 10px;
+  }
+}
+
+.card .card__info * {
+  margin-top: 15px;
+}
+
+@media all and (max-width: 992px) {
+  .card .card__info h4 {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .card .card__info h4 {
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+.card .card__info .card_playlistType {
+  text-transform: uppercase;
+}
+
+.card .card__info h1 {
+  font-size: 4rem;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 992px) {
+  .card .card__info h1 {
+    font-size: 3rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .card .card__info h1 {
+    font-size: 2rem;
+  }
+}
+
+.card .card__info span {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+@media all and (max-width: 768px) {
+  .card .card__info span {
+    font-size: 0.75rem;
+  }
+}
+/*# sourceMappingURL=Card.module.css.map */
